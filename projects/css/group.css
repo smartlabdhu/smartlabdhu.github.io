@@ -1,0 +1,88 @@
+/* Space out content a bit */
+body { padding-bottom: 20px; font-weight: 400; font-size: 14px; font-weight: 400; }
+
+a:hover { text-decoration: none; }
+
+h2 { font-size: 2rem; margin-top: 1em; }
+
+h3 { font-size: 1.5rem; margin-top: 1em; }
+
+h6 { font-size: 1.1rem; font-weight: bold; }
+
+a { color: #428bca; }
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header, .footer { padding-left: 15px; padding-right: 15px; }
+
+/* Custom page header */
+.header { border-bottom: 1px solid #e5e5e5; }
+
+/* Custom page footer */
+.footer { padding-top: 19px; color: #777; border-top: 1px solid #e5e5e5; text-align: center; font-size: 0.8em; }
+
+.footer p { margin: 0.1em 0; }
+
+.footer a:link, .footer a:visited { color: #777; }
+
+.fa { color: #999; }
+
+a > .fa { display: inline; }
+
+/* Customize container */
+@media (min-width: 768px) { .container { max-width: 1400px; }
+  .card-columns { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
+  ul.grad { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; } }
+
+@media (max-width: 768px) { .card-columns { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; } }
+
+@media (max-width: 550px) { .card-columns { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; } }
+
+.container-narrow > hr { margin: 30px 0; }
+
+/* Jumbotron */
+.jumbotron { text-align: justify; padding-top: 1.5em; padding-bottom: 0.5em; font-size: 125%; }
+
+/* Group logo */
+#logo { width: 135px; height: 56px; margin: 2px 0 8px 0; }
+
+/* Front page news. */
+ul.news .date { color: #999; font-weight: bold; }
+
+ul.news > li { margin-top: 1em; }
+
+@media (min-width: 576px) { .project-people { column-count: 1; }
+  .card-columns { column-count: 2; } }
+
+@media (min-width: 768px) { .role.grad { column-count: 1; }
+  .project-people { column-count: 1; }
+  .card-columns { column-count: 2; } }
+
+.title img { max-width: 50%; }
+
+section { margin-bottom: 2em; }
+
+.profile { object-fit: cover; }
+
+.noprofile circle { fill: #eee; }
+
+.noprofile text { font-weight: 700; fill: white; }
+
+.card .profile { height: 40px; width: 40px; margin: 3px; }
+
+.card .card-footer { padding: 0.5em; }
+
+.person { margin-bottom: 10px; }
+
+.person .profile { height: 70px; width: 70px; }
+
+.person .bio { color: #999; }
+
+.person .person-name { margin: 0; }
+
+.person-without-image { margin: 0; }
+
+.person-without-image .bio { margin-left: 1em; }
+
+svg { vertical-align: middle; }
+
+/*# sourceMappingURL=group.css.map */
