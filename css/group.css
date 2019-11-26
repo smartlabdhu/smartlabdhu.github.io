@@ -1,9 +1,9 @@
 /* Space out content a bit */
-body { padding-bottom: 20px; font-weight: 400; font-size: 14px; font-weight: 400; background-image: '/img/background.png'; }
+body { padding-bottom: 20px; font-size: 14px; font-weight: 400; background-image: '/img/background.png'; }
 
 a:hover { text-decoration: none; }
 
-h2 { font-size: 2rem; margin-top: 1em; }
+h2 { margin-top: 1em; padding: 0.5em 0 0.1em 0; margin-bottom: 10px; line-height: 1.2; font-family: 'Montserrat', sans-serif; font-weight: bold; color: #48382d; text-transform: uppercase; }
 
 h3 { font-size: 1.5rem; margin-top: 1em; }
 
@@ -83,5 +83,7 @@ section { margin-bottom: 2em; }
 .person-without-image .bio { margin-left: 1em; }
 
 svg { vertical-align: middle; }
+
+.nav-item { font-size: 20px; font-weight: bold; }
 
 /*# sourceMappingURL=group.css.map */
